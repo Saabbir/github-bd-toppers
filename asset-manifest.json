@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/github-bd-toppers/static/css/main.4ac4d8ae.css",
-    "main.js": "/github-bd-toppers/static/js/main.c6143e85.js",
+    "main.js": "/github-bd-toppers/static/js/main.a6ae3886.js",
     "index.html": "/github-bd-toppers/index.html",
     "main.4ac4d8ae.css.map": "/github-bd-toppers/static/css/main.4ac4d8ae.css.map",
-    "main.c6143e85.js.map": "/github-bd-toppers/static/js/main.c6143e85.js.map"
+    "main.a6ae3886.js.map": "/github-bd-toppers/static/js/main.a6ae3886.js.map"
   },
   "entrypoints": [
     "static/css/main.4ac4d8ae.css",
-    "static/js/main.c6143e85.js"
+    "static/js/main.a6ae3886.js"
   ]
 }
