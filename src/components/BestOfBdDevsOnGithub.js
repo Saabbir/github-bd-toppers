@@ -28,13 +28,8 @@ class BestOfBdDevsOnGithub extends React.Component {
       const {
         name,
         bio,
-        email,
-        followers,
-        location,
         login: username,
-        public_repos,
         avatar_url,
-        twitter_username,
         html_url: github_url,
         id,
       } = user;
