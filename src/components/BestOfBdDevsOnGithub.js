@@ -1,6 +1,5 @@
 import React from "react";
 import github from "../api/github";
-import "../scss/BestOfBdDevsOnGithub.scss";
 
 const queryString =
   "q=" +
@@ -42,11 +41,23 @@ class BestOfBdDevsOnGithub extends React.Component {
             target="_blank"
             rel="noreferrer"
           >
-            <img className="c-user__img" src={avatar_url} alt={name} />
+            <img
+              className="c-user__img"
+              src={avatar_url}
+              alt={name}
+              width="300"
+            />
           </a>
           <div className="c-user__info">
             <h4 className="c-user__name">
-              {name} <span>{username}</span>
+              <a
+                href={github_url}
+                target="_blank"
+                rel="noreferrer"
+                className="c-user__name-link"
+              >
+                {name} <span className="c-user__username">{username}</span>
+              </a>
             </h4>
             <p className="c-user__bio">{bio}</p>
           </div>
